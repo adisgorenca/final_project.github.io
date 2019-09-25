@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color:black;
+  color:white;
+}
+li button {
+  background-color: white;
+  color:black;
+}
+img {
+  width:100%;
+}
+.border {
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+h1 {
+  font-size: 60px;
+}
+p {
+  font-size: 30px;
+}
+
+.navlink1 {
+  padding-right: 0px !important;
+}
+.btn {
+  padding: 6px;
+}
+.nav li:hover {
+  text-decoration: underline;
+}
+li a:hover {
+  background-color: white !important;
+}
+.navbar {
+  background-color: white;
+  position: sticky;
+  margin: 0;
+}
+.navbar a {
+  color:black;
+}
+.active {
+  text-decoration: underline;
+}
+.title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 100px;
+}
+#disclaimer {
+  background-color: white;
+  border-radius: 15px;
+  animation: disclaimer 2s forwards;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  animation-delay: 5s;
+  position: fixed;
+  top: 50%;
+  padding: 10px;
+  color:black;
+}
+@keyframes disclaimer {
+    from {
+        filter: opacity(100%);
+    }
+
+    to {
+        filter: opacity(0%);
+    }
+}
+.carousel {
+  margin-bottom: 30px;
+}
+.carousel-caption {
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+  background-color: black;
+  padding-top: 0px;
+  border-radius: 25px;
+}
+.carousel .item {
+  height: 600px;
+}
+.item iframe {
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#btn-donate {
+  font-size: 100px;
+  background-color: blue;
+  padding: 10px;
+  animation: rainbow 5s linear infinite;
+}
+#jumbotron-merchandise {
+  background-color: silver;
+}
+#jumbotron-merchandise h1 {
+  margin-top: 0px;
+}
+.btn-merchandise {
+  font-size: 20px;
+  margin: 5px;
+}
+.div-merchandise {
+  background-color: silver;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+.col-sm-4 {
+  padding: 5px;
+}
+@keyframes rainbow {
+  0%   {background-color: red;}
+  12.5%  {background-color: orange;}
+  25%  {background-color: yellow;}
+  37.5%  {background-color: green;}
+  50%  {background-color: lightblue;}
+  62.5%  {background-color: blue;}
+  75%  {background-color: indigo;}
+  87.5%  {background-color: violet;}
+  100% {background-color: red;}
+}
+.filter-1 {
+  filter: grayscale(100%);
+}
+.filter-2 {
+  filter: sepia(100%);
+}
